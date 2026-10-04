@@ -1155,7 +1155,7 @@ footer a {
 
 @media(max-width:900px) {
  .theme-toggle {
-    right:4vw;
+    right:5vw;
     top:76px;
 }
  .nav__links {
