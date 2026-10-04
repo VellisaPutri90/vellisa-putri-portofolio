@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
     setTimeout(() => loader.classList.add("done"), 1200);
 });
 
-const greeting = [
+const greetings = [
   ["Halo,", "user!"],
   ["Hello,", "user!"],
   ["Bonjour,", "user!"],
@@ -27,9 +27,9 @@ let greetingIndex = 0;
 setInterval(() => {
     hello.classList.add("changing");
     setTimeout(() => {
-        greetingIndex = (greetingIndex + 1) % greetings.length;
-        hello.innerHTML = `${greetings[greetingIndex][0]}<br><i>${greetings[greetingIndex][1]}</i>`;
-        hello.classList.remove("changing");
+       greetingIndex = (greetingIndex + 1) % greetings.length;
+       hello.innerHTML = `${greetings[greetingIndex][0]}<br><i>${greetings[greetingIndex][1]}</i>`;
+       hello.classList.remove("changing");
     }, 220);
 }, 1700);
 
