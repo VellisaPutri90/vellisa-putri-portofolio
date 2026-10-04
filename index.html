@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chéri — Digital Portfolio">
+    <title>Vellisa Putri's Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=DM+Sans:wght@400;500;600;700&family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+    <div class="cursor-label" id="cursorLabel"></div>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme" title="Switch theme">
+        <span class="theme-toggle__icon theme-toggle__sun">☼</span>
+        <span class="theme-toggle__moon theme-toggle__moon">☾</span>
+        <span class="theme-toggle__thumb"></span>
+    </button>
+
+    <div class="loader" id="loader">
+        <div class="loader__wrap">
+            <div class="loader-envelope">
+                <div class="loader-envelope__back"></div>
+                <div class="loader-envelope__flap"></div>
+                <div class="loader-envelope__letter">VELL</div>
+                <div class="loader-envelope__seal">✦</div>
+            </div>
+            <p>Loading the artist</p>
+            <span>preparing your little archive</span>
+        </div>
+    </div>
+
+    <section class="welcome" id="welcome">
+        <div class="welcome__noise"></div>
+        <div class="welcome__top">
+            <span>THE DIGITAL ARCHIVE</span>
+            <span>VOL. 01 — 2026</span>
+        </div>
+
+        <div class="welcome__center">
+            <p class="tiny">A LETTER FROM THE ARTIST</p>
+            <h1 id="hello">Halo,<br><i>user!</i></h1>
+            <p class="welcome__desc">
+                A curated collection of interfaces, illustrations,<br>
+                visual experiments and little things I love making.
+            </p>
+            <button class="enter" id="enter">
+                <span>Enter portofolio</span>
+                <b>↗</b>
+            </button>
+        </div>
+
+        <div class="welcome__bottom">
+            <span>SCROLL / EXPLORE / CREATE</span>
+            <span>MADE WITH CURIOSITY AND HOPE</span>
+        </div>
+    </section>
+
+    <main id="main">
+
+        <nav class="nav">
+            <a class="nav__brand" href="#top">VELLIS<span>®</span></a>
+            <div class="nav__links">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <span class="nav__status"><i></i> available for commission</span>
+        </nav>
+
+        <section class="hero" id="top">
+            <div class="hero__decor hero__decor--1">( ARTIST )</div>
+            <div class="hero__decor hero__decor--2">( UI/UX DESIGNER )</div>
+
+            <div class="hero__copy">
+                <p class="eyebrow">UI/UX DESIGNER · ILUSTRATOR</p>
+                <h2>Digital<br><em>stories</em></h2>
+                <p class="hero__intro">
+                    Interfaces with personality, illustrations with a pulse,
+                    and visual systems made to be remembered.
+                </p>
+            </div>
+
+            <div class="hero__envelope-zone">
+                <div class="scribble">open<br>me ↓</div>
+
+                <button class="main-envelope" id="mainEnvelope" aria-label="Open portofolio">
+                    <div class="env-shadow"></div>
+                    <div class="env-paper">
+                        <div class="env-paper__top">
+                            <span>PORTOFOLIO</span>
+                            <span>VOL. 1</span>
+                        </div>
+                        <strong>Portofolio</strong>
+                        <div class="env-paper__bottom">
+                            <span>( VELLIS )</span>
+                            <span>2026</span>
+                        </div>
+                    </div>
+
+                    <div class="env-left"></div>
+                    <div class="env-right"></div>
+                    <div class="env-bottom"></div>
+                    <div class="env-flap"></div>
+                    <div class="env-seal"></div>
+                </button>
+                
+                <p class="hero__hint">CLICK THE ENVELOPE TO OPEN MY WORLD</p>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="section-index">01</div>
+
+            <div class="about__title reveal">
+                <span class="label">A LITTLE ABOUT ME</span>
+                <h2>Nice to<br><em>meet you.</em></h2>
+            </div>
+
+            <div class="about__content reveal">
+                <div class="about__portrait">
+                    <div class="portrait-frame">
+                        <img src="image/ma fes.jpeg">
+                        <span>PORTRAIT / 01</span>
+                    </div>
+                <div class="sticker">hello<br>there!</div>
+            </div>
+
+            <div class="about__text">
+                    <p class="big">
+                    Hi! I'm <strong>Vellisa Putri</strong>, a software enginer student that enjoys to create some piece of art by using the technology to create 
+                    clean and responsive designes for website.
+                    </p>
+                    <p>
+                    I love creating art mixed with technology to create some masterpiece
+                    like an ilustration and UI/UX designes. Designing makes my life feels 
+                    more lively than ever.
+                    </p>
+
+                    <div class="mini-info">
+                        <div>
+                            <span>ROLE</span>
+                            <b>UI/UX Designer<br>& Ilustrator</b>
+                        </div>
+                        <div>
+                            <span>FOCUS</span>
+                            <b>Digial product<br>Visual Identity</b>
+                        </div>
+                        <div>
+                            <span>BASED IN</span>>
+                            <b>Indonesia<br>Available Worldwide</b>
+                        </div>
+                    </div>
+
+                    <div class="signature">Vellis</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section">
+            <div class="section-index">02</div>
+            <div class="skills__heading reveal">
+                <span class="label">THE THINGS I DO</span>
+                <h2>My creative<br><em>toolbox.</em></h2>
+            </div>
+
+            <div class="skills__cards">
+                <article class="skill-card reveal">
+                    <span>01</span>
+                    <div class="skill-icon">⌁</div>
+                    <h3>UI / UX</h3>
+                    <p>Wireframes, user flows, prototypes, design systems and interfaces that feel effortless.</p>
+                    <small>FIGMA · PROTOTYPING · UX RESEARCH</small>
+                </article>
+
+           <article class="skill-card skill-card--dark reveal">
+                <span>02</span>
+                <div class="skill-icon">✎</div>
+                <h3>Illustration</h3>
+                <p>Editorial illustrations, character work, visual storytelling and playful graphic assets.</p>
+                <small>KRITA · ILLUSTRATOR · CANVA</small>
+            </article>
+
+            <article class="skill-card reveal">
+                <span>03</span>
+                <div class="skill-icon">◌</div>
+                <h3>Art Direction</h3>
+                <p>Concepts, moodboards, visual language and cohesive worlds for digital campaigns.</p>
+                <small>CONCEPT · DIRECTION · EDITORIAL</small>
+            </article>
+            </div>
+        </section>
+
+        <section class="work section" id="work">
+            <div class="section-index">03</div>
+            <div class="work__heading reveal">
+                <div>
+                    <span class="label">WORKS</span>
+                    <h2>Some things<br>I've <em>made.</em></h2>
+                </div>
+                <p>Three little world from my sketchbook, screen and study.</p>
+            </div>
+
+            <div class="work-grid">
+                <article class="project project--hero reveal">
+                    <button type="button" class="project__visual" data-project="0" aria-label="View Modul No. 1">
+                        <img src="image/modul1.png" alt="modul1">
+                        <span class="project__tag">01 / MODUL-1</span>
+                        <span class="project__arrow">↗</span>
+                    </button>
+                    <div class="project__info">
+                        <h3>Modul No. 1</h3>
+                        <p>My first try of HTML.</p>
+                        <span>2026</span>
+                    </div>
+                </article>
+
+                <article class="project reveal">
+                    <button type="button" class="project__visual project__visual--tall" data-project="1" aria-label="View Modul No. 2">
+                        <img src="image/modul2.png" alt="modul2">
+                        <span class="project__tag">02 / MODUL-2</span>
+                        <span class="project__arrow">↗</span>
+                    </button>
+                    <div class="project__info">
+                        <h3>Modul 2</h3>
+                        <p>Seccond try of HTML mixed with CSS.</p>
+                        <span>2026</span>
+                    </div>
+                </article>
+
+                <article class="project reveal">
+                    <button type="button" class="project__visual project__visual--square" data-project="2" aria-label="View Modul No. 03">
+                        <img src="image/modul3.png" alt="modul3">
+                        <span class="project__tag">03 / MODUL-3</span>
+                        <span class="project__arrow">↗</span>
+                    </button>
+                    <div class="project__info">
+                        <h3>Modul 3</h3>
+                        <p>Third try of HTML mixed with CSS nad JS.</p>
+                    </div>
+                </article>
+
+                <article class="project project--wide reveal">
+                    <button type="button" class="project__visual" data-project="3" aria-label="View Art collaboration">
+                        <img src="image/collab art.png" alt="collab art">
+                        <span class="project__tag">04 / COLLABORATION ART</span>
+                        <span class="project__arrow">↗</span>
+                    </button>
+                    <div class="project__info">
+                        <h3>Collab art</h3>
+                        <p>Project made by me and my friend.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div class="marquee" aria-hidden="true">
+            <div>CREATE WITH FEELING ✦ DESIGN WITH INTENTION ✦ CREATE WITH FEELING ✦ DESIGN WITH INTENTION ✦ CREATE WITH FEELING ✦ DESIGN WITH INTENTION ✦ CREATE WITH FEELING ✦ DESIGN WITH INTENTION ✦ CREATE WITH FEELING ✦ DESIGN WITH INTENTION ✦ CREATE WITH FEELING ✦ DESIGN WITH INTENTION ✦ CREATE WITH FEELING ✦ DESIGN WITH INTENTION ✦ </div>
+        </div>
+
+        <section class="gallery section" id="gallery">
+            <div class="section-index">04</div>
+            <div class="gallery__heading reveal">
+                <span class="label">VISUAL DIARY</span>
+                <h2>Little<br><em>creativity.</em></h2>
+            </div>
+
+            <div class="gallery-grid">
+                <figure class="gallery-item gallery-item--large reveal gallery-click" data-gallery="1">
+                    <img src="image/jacob.png">
+                    <figcaption><span>01</span> character illustration </figcaption>
+                </figure>
+                <figure class="gallery-item gallery-click" data-gallery="2">
+                    <img src="image/Future is not always about technology..png">
+                    <figcaption><span>02</span> full theme illustration </figcaption>
+                </figure>
+                <figure class="gallery-item gallery-item--offset reveal gallery-click" data-gallery="3">
+                    <img src="image/oc gweh.png">
+                    <figcaption><span>03</span>my own character design.</figcaption>
+                </figure>
+                <figure class="gallery-item reveal gallery-click" data-gallery="4">
+                    <img src="image/Trends.png">
+                <figcaption><span>04</span>Art Trends</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="contact__card reveal">
+                <div class="contact__stamp">✦</div>
+                <span class="label">05 — SAY HELLO</span>
+                <h2>Let's create<br><em>something.</em></h2>
+                <a href="mailto:vellisaputri30@gmail.com" class="mail">vellisaputri30@gmail.com ↗</a>
+            </div>
+
+            <div class="contact__side reveal">
+                <div class="contact__note">
+                    <span>DEAR FUTURE COLLABORATOR,</span>
+                    <p>
+                        I'm currently open for art commission and collaboration project,
+                        and new opportunities.
+                    </p>
+                    <strong>— Vell</strong>
+                </div>
+                <div class="socials">
+                    <a href="https://www.instagram.com/pell_shaa26/" target="_blank" rel="noopener">Instagram ↗</a>
+                    <a href="https://www.tiktok.com/@anastashia_rikk" target="_blank" rel="noopener">TikTok ↗</a>
+                    <a href="https://github.com/VellisaPutri90" target="_blank" rel="noopener">GitHub ↗</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="lightbox" id="lightbox" aria-hidden="true">
+            <div class="lightbox__backdrop" data-close-lightbox></div>
+            <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle">
+                <button class="lightbox__close" id="lightboxClose" aria-label="Close preview">×</button>
+                <div class="lightbox__image-wrap">
+                    <img id="lightboxImage" src="" alt="">
+                    <div class="lightbox__counter" id="lightboxCounter">01 / 04</div>
+                </div>
+                <div class="lightbox__content">
+                    <span class="label" id="lightboxLabel">PROJECT</span>
+                    <h3 id="lightboxTitle">Project title.</h3>
+                    <p id="lightboxDescription">Project description</p>
+                    <div class="lightbox__actions">
+                        <button class="lightbox__next" id="lightboxPrev" type="button">← Previous</button>
+                        <button class="lightbox__next" id="lightboxNext" type="button">Next →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <span>VELL® — DIGITAL PORTFOLIO</span>
+            <span>DESIGNED WITH CURIOSITY AND HOPE / 2026</span>
+            <a href="#top">BACK TO TOP</a>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
